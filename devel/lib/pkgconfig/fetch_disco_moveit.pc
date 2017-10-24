@@ -1,0 +1,8 @@
+prefix=/home/bewilderon/catkin_ws/devel
+
+Name: fetch_disco_moveit
+Description: Description of fetch_disco_moveit
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/bewilderon/catkin_ws/devel/lib 
+Requires: 
