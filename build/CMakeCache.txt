@@ -257,23 +257,11 @@ actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/indigo/share/actionlib_msgs/cmake
 
-//The directory containing a CMake configuration file for angles.
-angles_DIR:PATH=/opt/ros/indigo/share/angles/cmake
-
-//Value Computed by CMake
-beginner_tutorials_BINARY_DIR:STATIC=/home/bewilderon/catkin_ws/build/beginner_tutorials
-
-//Value Computed by CMake
-beginner_tutorials_SOURCE_DIR:STATIC=/home/bewilderon/catkin_ws/src/beginner_tutorials
-
 //The directory containing a CMake configuration file for bond.
 bond_DIR:PATH=/opt/ros/indigo/share/bond/cmake
 
 //The directory containing a CMake configuration file for bondcpp.
 bondcpp_DIR:PATH=/opt/ros/indigo/share/bondcpp/cmake
-
-//The directory containing a CMake configuration file for camera_info_manager.
-camera_info_manager_DIR:PATH=/opt/ros/indigo/share/camera_info_manager/cmake
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
@@ -287,26 +275,8 @@ control_msgs_DIR:PATH=/opt/ros/indigo/share/control_msgs/cmake
 //The directory containing a CMake configuration file for control_toolbox.
 control_toolbox_DIR:PATH=/opt/ros/indigo/share/control_toolbox/cmake
 
-//The directory containing a CMake configuration file for controller_interface.
-controller_interface_DIR:PATH=/opt/ros/indigo/share/controller_interface/cmake
-
-//The directory containing a CMake configuration file for controller_manager.
-controller_manager_DIR:PATH=/opt/ros/indigo/share/controller_manager/cmake
-
-//The directory containing a CMake configuration file for controller_manager_msgs.
-controller_manager_msgs_DIR:PATH=/opt/ros/indigo/share/controller_manager_msgs/cmake
-
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
-
-//Value Computed by CMake
-diff_wheeled_robot_control_BINARY_DIR:STATIC=/home/bewilderon/catkin_ws/build/diff_wheeled_robot_control
-
-//Value Computed by CMake
-diff_wheeled_robot_control_SOURCE_DIR:STATIC=/home/bewilderon/catkin_ws/src/diff_wheeled_robot_control
-
-//The directory containing a CMake configuration file for driver_base.
-driver_base_DIR:PATH=/opt/ros/indigo/share/driver_base/cmake
 
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/indigo/share/dynamic_reconfigure/cmake
@@ -329,14 +299,8 @@ fetch_navigation_DIR:PATH=/opt/ros/indigo/share/fetch_navigation/cmake
 //The directory containing a CMake configuration file for gazebo_msgs.
 gazebo_msgs_DIR:PATH=/opt/ros/indigo/share/gazebo_msgs/cmake
 
-//The directory containing a CMake configuration file for gazebo_plugins.
-gazebo_plugins_DIR:PATH=/opt/ros/indigo/share/gazebo_plugins/cmake
-
 //The directory containing a CMake configuration file for gazebo_ros.
 gazebo_ros_DIR:PATH=/opt/ros/indigo/share/gazebo_ros/cmake
-
-//The directory containing a CMake configuration file for gazebo_ros_control.
-gazebo_ros_control_DIR:PATH=/opt/ros/indigo/share/gazebo_ros_control/cmake
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/indigo/share/gencpp/cmake
@@ -381,50 +345,14 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
-//The directory containing a CMake configuration file for hardware_interface.
-hardware_interface_DIR:PATH=/opt/ros/indigo/share/hardware_interface/cmake
-
-//The directory containing a CMake configuration file for image_geometry.
-image_geometry_DIR:PATH=/opt/ros/indigo/share/image_geometry/cmake
-
-//The directory containing a CMake configuration file for image_transport.
-image_transport_DIR:PATH=/opt/ros/indigo/share/image_transport/cmake
-
-//The directory containing a CMake configuration file for interactive_markers.
-interactive_markers_DIR:PATH=/opt/ros/indigo/share/interactive_markers/cmake
-
-//The directory containing a CMake configuration file for joint_limits_interface.
-joint_limits_interface_DIR:PATH=/opt/ros/indigo/share/joint_limits_interface/cmake
-
-//The directory containing a CMake configuration file for joint_state_controller.
-joint_state_controller_DIR:PATH=/opt/ros/indigo/share/joint_state_controller/cmake
-
-//The directory containing a CMake configuration file for joy.
-joy_DIR:PATH=joy_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for kdl_conversions.
 kdl_conversions_DIR:PATH=/opt/ros/indigo/share/kdl_conversions/cmake
 
 //The directory containing a CMake configuration file for kdl_parser.
 kdl_parser_DIR:PATH=/opt/ros/indigo/share/kdl_parser/cmake
 
-//The directory containing a CMake configuration file for laser_geometry.
-laser_geometry_DIR:PATH=/opt/ros/indigo/share/laser_geometry/cmake
-
 //Path to a library.
 lib:FILEPATH=/opt/ros/indigo/lib/libtopic_tools.so
-
-//The directory containing a CMake configuration file for map_msgs.
-map_msgs_DIR:PATH=/opt/ros/indigo/share/map_msgs/cmake
-
-//Value Computed by CMake
-mastering_ros_robot_description_pkg_BINARY_DIR:STATIC=/home/bewilderon/catkin_ws/build/mastering_ros_robot_description_pkg
-
-//The directory containing a CMake configuration file for mastering_ros_robot_description_pkg.
-mastering_ros_robot_description_pkg_DIR:PATH=/home/bewilderon/catkin_ws/devel/share/mastering_ros_robot_description_pkg/cmake
-
-//Value Computed by CMake
-mastering_ros_robot_description_pkg_SOURCE_DIR:STATIC=/home/bewilderon/catkin_ws/src/mastering_ros_robot_description_pkg
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake
@@ -467,9 +395,6 @@ pluginlib_DIR:PATH=/opt/ros/indigo/share/pluginlib/cmake
 
 //The directory containing a CMake configuration file for realtime_tools.
 realtime_tools_DIR:PATH=/opt/ros/indigo/share/realtime_tools/cmake
-
-//The directory containing a CMake configuration file for resource_retriever.
-resource_retriever_DIR:PATH=/opt/ros/indigo/share/resource_retriever/cmake
 
 //The directory containing a CMake configuration file for robot_controllers.
 robot_controllers_DIR:PATH=/opt/ros/indigo/share/robot_controllers/cmake
@@ -522,17 +447,8 @@ rospy_DIR:PATH=/opt/ros/indigo/share/rospy/cmake
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
 
-//The directory containing a CMake configuration file for rviz.
-rviz_DIR:PATH=/opt/ros/indigo/share/rviz/cmake
-
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
-
-//Value Computed by CMake
-seven_dof_arm_gazebo_BINARY_DIR:STATIC=/home/bewilderon/catkin_ws/build/seven_dof_arm_gazebo
-
-//Value Computed by CMake
-seven_dof_arm_gazebo_SOURCE_DIR:STATIC=/home/bewilderon/catkin_ws/src/seven_dof_arm_gazebo
 
 //The directory containing a CMake configuration file for shape_msgs.
 shape_msgs_DIR:PATH=/opt/ros/indigo/share/shape_msgs/cmake
@@ -576,17 +492,8 @@ topic_tools_DIR:PATH=/opt/ros/indigo/share/topic_tools/cmake
 //The directory containing a CMake configuration file for trajectory_msgs.
 trajectory_msgs_DIR:PATH=/opt/ros/indigo/share/trajectory_msgs/cmake
 
-//The directory containing a CMake configuration file for transmission_interface.
-transmission_interface_DIR:PATH=/opt/ros/indigo/share/transmission_interface/cmake
-
 //The directory containing a CMake configuration file for urdf.
 urdf_DIR:PATH=/opt/ros/indigo/share/urdf/cmake
-
-//The directory containing a CMake configuration file for visualization_msgs.
-visualization_msgs_DIR:PATH=/opt/ros/indigo/share/visualization_msgs/cmake
-
-//The directory containing a CMake configuration file for xacro.
-xacro_DIR:PATH=/opt/ros/indigo/share/xacro/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
